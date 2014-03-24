@@ -20,6 +20,7 @@
 
 % adjust the page margins
 \usepackage[scale=0.75]{geometry}
+\usepackage{graphicx}
 %\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
 %\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
@@ -54,6 +55,7 @@
 \begin{document}
 %\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
 \makecvtitle
+\section{Research statement}
 \textbf{What is your research question for your PhD?}
 \\
 TBD
@@ -61,7 +63,7 @@ TBD
 \\
 \textbf{What research have you done in the past?}
 \\
-I have received Master Degree in Computer Science (Software Engineering) in 2012 from Asian Institute of Technology, under the supervision of Dr. Matthew Dailey. I have researched about Human Robot Interactive in service environment and came out with the thesis entitled ``\emph{Voice, Gesture, and Web Interfaces for Human Robot Interaction in Service Environments.}''\ I studied the interaction between robot and human being throughout voice, gesture, and Web Interfaces with Turtlebot (an iRobot Create integrated with a Microsoft Kinect). My research focused on the development of interfaces in order to facilitate non-experience user to simply control the robot. 
+I have received Master Degree in Computer Science (Software Engineering) in 2012 from Asian Institute of Technology, under the supervision of Dr. Matthew Dailey. I have researched about Human-robot interaction in service environment and came out with the thesis entitled ``\emph{Voice, Gesture, and Web Interfaces for Human Robot Interaction in Service Environments.}''\ I studied the interaction between robot and human being throughout voice, gesture, and Web Interfaces with Turtlebot (an iRobot Create integrated with a Microsoft Kinect). My research focused on the development of interfaces in order to facilitate non-experience user to simply control the robot. 
 \\
 \\
 Robot Operating System (ROS) is used as a framework which can obtain, build, write, and run code across multiple computers and multiple robots. Moreover, the ROS package was created on top of ROS to receive commands from user such as voice command, and finger command in term of gesture. From three interfaces, they are all satisfied with qualitative evaluation as Turtlebot can achieve correct destination and respond to the command in a timely manner. In term of user aspect, web-based system is most satisfied as it is convenience to user (drag and drop) and can provide related information on web page such as robot position, obstacles, inflated obstacles, laser scan, and a compressed video coming from Microsoft Kinect.
@@ -84,8 +86,8 @@ Citizen of Thailand
 Female
 
 \section{Education}
-\cventry{2010 -- 2012}{M.Sc, Computer Science  (Specialize in Software Engineering)}{Asian Institute of Technology}{Thailand}{\textit{3.28}}{}  % arguments 3 to 6 can be left empty
-\cventry{2005--2009}{B.Sc, Information Technology (First Class Honors)}{Mahanakorn University of Technology}{Thailand}{\textit{3.93}}{Senior project: Information Technology Jobs Matching By Groovy on Grails}
+\cventry{2010 -- 2012}{M.Sc, Computer Science  (Specialize in Software Engineering)}{Asian Institute of Technology}{Thailand}{\textit{3.28/4}}{}  % arguments 3 to 6 can be left empty
+\cventry{2005--2009}{B.Sc, Information Technology (First Class Honors)}{Mahanakorn University of Technology}{Thailand}{\textit{3.93/4}}{Senior project: Information Technology Jobs Matching By Groovy on Grails}
 
 \section{Master thesis}
 \cvitem{title}{\emph{Voice, Gesture, and Web Interfaces for Human-Robot Interaction in Service Environments}}
@@ -94,11 +96,13 @@ Female
 Robot Operating System (ROS) is used to enable Human-robot interaction with the Turtlebot (an iRobot Create integrated with a Microsoft Kinect). Building on and extending existing technologies, I have created a prototype restuarant waiter robot able to respond to voice, gesture, and Web-based commands. Available online at \url{https://sites.google.com/site/vgwhri/home}}
 
 \section{Interests}
-\cvitem{Human-computer interaction}{}
-\cvitem{Human-robot interaction}{}
-\cvitem{Agile software development}{}
-\cvitem{Web and mobile technology}{}
-\cvitem{Object-oriented technology}{}
+\begin{itemize} \itemsep -1pt
+    \item Human-computer interaction
+    \item Human-robot interaction
+    \item Agile software development
+    \item Web and mobile technology
+    \item Object-oriented technology 
+\end{itemize}
 
 \section{Experience}
 \subsection{Vocational}
@@ -114,6 +118,7 @@ Co-Teaching Courses: Computer Graphic, Computer Network, Multimedia and animatio
 }
 \subsection{Miscellaneous}
 \cventry{2014}{Speaker}{Thanyarat School}{Pathum Thani, Thailand}{}{Encourage high school students to learn more in computer science, also give them the inspirations in order to achive their dreams.\newline{}}
+\cventry{2011}{Staff for International Robotics Challenge}{Techfest}{Mumbai, India}{}{I was the staff for the robot competition at Techfest (Asia's Largest Science and Technology festival). I administered Thai students who joined this competition.\newline{}}
 \cventry{2010}{Speaker}{High Schools}{Thailand}{}{I had travelled around Thailand to encourage high school students for further study in their field especially in computer science. I mostly talked about the guideline to study in the university. }
 
 \section{Honors, Awards, Grants}
@@ -127,35 +132,20 @@ Sun certified programmer for the Java platform, standard edition 5.0
 \section{Publications}
 Ruensuk, M., Information Technology Jobs Matching By Groovy on Grails. In Proceedings of \emph{Conference on Electrical Engineering/Electronics Computer Telecommunications and Information Technology (ECTI-CARD)}, 2010, pp. 343 - 348.
 
+\section{Academic records}
+\subsection{Master degree}
+\includegraphics[width=\textwidth]{images/master_1}
+\clearpage
+\includegraphics[width=\textwidth]{images/master_2}
 
-\section{Languages}
-\cvitemwithcomment{Language 1}{Skill level}{Comment}
-\cvitemwithcomment{Language 2}{Skill level}{Comment}
-\cvitemwithcomment{Language 3}{Skill level}{Comment}
+\subsection{Bachelor degree}
+\includegraphics[width=\textwidth]{images/bachelor_1}
+\includegraphics[width=\textwidth]{images/bachelor_2}
 
-\section{Computer skills}
-\cvdoubleitem{category 1}{XXX, YYY, ZZZ}{category 4}{XXX, YYY, ZZZ}
-\cvdoubleitem{category 2}{XXX, YYY, ZZZ}{category 5}{XXX, YYY, ZZZ}
-\cvdoubleitem{category 3}{XXX, YYY, ZZZ}{category 6}{XXX, YYY, ZZZ}
-
-
-
-\section{Extra 1}
-\cvlistitem{Item 1}
-\cvlistitem{Item 2}
-\cvlistitem{Item 3. This item is particularly long and therefore normally spans over several lines. Did you notice the indentation when the line wraps?}
-
-\section{Extra 2}
-\cvlistdoubleitem{Item 1}{Item 4}
-\cvlistdoubleitem{Item 2}{Item 5\cite{book1}}
-\cvlistdoubleitem{Item 3}{Item 6. Like item 3 in the single column list before, this item is particularly long to wrap over several lines.}
-
-\section{References}
-\begin{cvcolumns}
-  \cvcolumn{Category 1}{\begin{itemize}\item Person 1\item Person 2\item Person 3\end{itemize}}
-  \cvcolumn{Category 2}{Amongst others:\begin{itemize}\item Person 1, and\item Person 2\end{itemize}(more upon request)}
-  \cvcolumn[0.5]{All the rest \& some more}{\textit{That} person, and \textbf{those} also (all available upon request).}
-\end{cvcolumns}
+\section{Expected start date}
+September 1st, 2014
+\section{Funding - Do you require funding?}
+Yes, I do.
 
 % Publications from a BibTeX file without multibib
 %  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
