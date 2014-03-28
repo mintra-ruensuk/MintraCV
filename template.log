@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  28 MAR 2014 12:17
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  28 MAR 2014 22:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1177,11 +1177,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 22278 strings out of 493488
- 392441 string characters out of 3141326
+ 22274 strings out of 493488
+ 392397 string characters out of 3141326
  486842 words of memory out of 3000000
  25074 multiletter control sequences out of 15000+200000
- 55268 words of font info for 84 fonts, out of 3000000 for 9000
+ 55102 words of font info for 82 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  70i,13n,70p,867b,546s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
@@ -1194,7 +1194,7 @@ fb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/l
 ocal/texlive/2012/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texli
 ve/2012/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2012/te
 xmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on template.pdf (10 pages, 2911662 bytes).
+Output written on template.pdf (10 pages, 2911899 bytes).
 PDF statistics:
  194 PDF objects out of 1000 (max. 8388607)
  162 compressed objects within 2 object streams
