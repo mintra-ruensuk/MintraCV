@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  24 MAR 2014 12:48
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  28 MAR 2014 12:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1007,152 +1007,181 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--57
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--76
+Underfull \hbox (badness 10000) in paragraph at lines 59--91
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--76
+Underfull \hbox (badness 10000) in paragraph at lines 59--91
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--76
+Underfull \hbox (badness 10000) in paragraph at lines 59--91
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--76
+Underfull \hbox (badness 10000) in paragraph at lines 59--91
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--91
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--91
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--91
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--91
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--91
 
  []
 
 [1
 
 {/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
 
  []
 
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 96.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 111.
+
 (/usr/local/texlive/2012/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 
 LaTeX Font Warning: Font shape `T1/lmr/sb/n' undefined
-(Font)              using `T1/lmr/m/n' instead on input line 108.
+(Font)              using `T1/lmr/m/n' instead on input line 124.
 
 
-Underfull \hbox (badness 10000) detected at line 108
+Underfull \hbox (badness 10000) detected at line 124
 \T1/lmr/m/n/8 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--114
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--114
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--114
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--114
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
 
  []
 
-[2
+[3
 
 ]
-Underfull \hbox (badness 10000) detected at line 119
+Underfull \hbox (badness 10000) detected at line 135
 \T1/lmr/m/n/8 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--120
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
 
  []
 
-[3]
-Underfull \hbox (badness 10000) detected at line 136
+[4]
+Underfull \hbox (badness 10000) detected at line 152
 \T1/lmr/m/n/8 .
  []
 
-<images/master_1.jpg, id=113, 1217.54875pt x 1621.05624pt>
+<images/master_1.jpg, id=118, 1217.54875pt x 1621.05624pt>
 File: images/master_1.jpg Graphic file (type jpg)
 
 <use images/master_1.jpg>
-Package pdftex.def Info: images/master_1.jpg used on input line 137.
+Package pdftex.def Info: images/master_1.jpg used on input line 153.
 (pdftex.def)             Requested size: 448.1309pt x 596.64005pt.
- [4] [5 <./images/master_1.jpg>]
-<images/master_2.jpg, id=124, 1151.30125pt x 1608.0075pt>
+ [5] [6 <./images/master_1.jpg>]
+<images/master_2.jpg, id=129, 1151.30125pt x 1608.0075pt>
 File: images/master_2.jpg Graphic file (type jpg)
 
 <use images/master_2.jpg>
-Package pdftex.def Info: images/master_2.jpg used on input line 139.
+Package pdftex.def Info: images/master_2.jpg used on input line 155.
 (pdftex.def)             Requested size: 448.1309pt x 625.8936pt.
 
-Underfull \hbox (badness 10000) detected at line 141
+Underfull \hbox (badness 10000) detected at line 157
 \T1/lmr/m/n/8 .
  []
 
-<images/bachelor_1.jpg, id=125, 1200.485pt x 1733.47626pt>
+<images/bachelor_1.jpg, id=130, 1200.485pt x 1733.47626pt>
 File: images/bachelor_1.jpg Graphic file (type jpg)
 
 <use images/bachelor_1.jpg>
-Package pdftex.def Info: images/bachelor_1.jpg used on input line 142.
+Package pdftex.def Info: images/bachelor_1.jpg used on input line 158.
 (pdftex.def)             Requested size: 448.1309pt x 647.08954pt.
 
-<images/bachelor_2.jpg, id=126, 1201.48875pt x 1730.465pt>
+<images/bachelor_2.jpg, id=131, 1201.48875pt x 1730.465pt>
 File: images/bachelor_2.jpg Graphic file (type jpg)
 
 <use images/bachelor_2.jpg>
-Package pdftex.def Info: images/bachelor_2.jpg used on input line 143.
+Package pdftex.def Info: images/bachelor_2.jpg used on input line 159.
 (pdftex.def)             Requested size: 448.1309pt x 645.43736pt.
- [6
+ [7
 
  <./images/master_2.jpg>]
 Overfull \vbox (31.7417pt too high) has occurred while \output is active []
 
 
-[7 <./images/bachelor_1.jpg>]
+[8 <./images/bachelor_1.jpg>]
 Overfull \vbox (11.65224pt too high) has occurred while \output is active []
 
 
-[8 <./images/bachelor_2.jpg>]
+[9 <./images/bachelor_2.jpg>]
 No file template.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 168.
-[9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 168.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 184.
+
+Overfull \hbox (5.03691pt too wide) has occurred while \output is active
+[]|\T1/lmr/m/it/10.95 (-20) 10/[]10[] 
+ []
+
+[10]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 184.
  (./template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 168.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 168.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 184.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 184.
 Package rerunfilecheck Info: File `template.out' has not changed.
 (rerunfilecheck)             Checksum: 757DF44C154EB2DD973EC4BF6B900E83;2036.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 22261 strings out of 493488
- 392266 string characters out of 3141326
+ 22278 strings out of 493488
+ 392441 string characters out of 3141326
  486842 words of memory out of 3000000
  25074 multiletter control sequences out of 15000+200000
- 54604 words of font info for 76 fonts, out of 3000000 for 9000
+ 55268 words of font info for 84 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  70i,13n,70p,867b,546s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
@@ -1165,10 +1194,10 @@ fb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/l
 ocal/texlive/2012/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texli
 ve/2012/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2012/te
 xmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on template.pdf (9 pages, 2907421 bytes).
+Output written on template.pdf (10 pages, 2911662 bytes).
 PDF statistics:
- 189 PDF objects out of 1000 (max. 8388607)
- 158 compressed objects within 2 object streams
- 27 named destinations out of 1000 (max. 500000)
+ 194 PDF objects out of 1000 (max. 8388607)
+ 162 compressed objects within 2 object streams
+ 28 named destinations out of 1000 (max. 500000)
  16041 words of extra memory for PDF output out of 17280 (max. 10000000)
 
