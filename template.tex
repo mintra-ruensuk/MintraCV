@@ -1,187 +1,296 @@
-%% start of file `template.tex'.
-%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Friggeri Resume/CV
+% XeLaTeX Template
+% Version 1.1 (9/2/15)
 %
-% This work may be distributed and/or modified under the
-% conditions of the LaTeX Project Public License version 1.3c,
-% available at http://www.latex-project.org/lppl/.
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX and the bibliography, if used,
+% needs to be compiled with biber rather than bibtex.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\documentclass[]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
 
-\documentclass[11pt,a4paper,roman]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\addbibresource{bibliography.bib} % Specify the bibliography file to include publications
 
-% moderncv themes
-\moderncvstyle{banking}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
-\moderncvcolor{red}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
-%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
-%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
-
-% character encoding
-%\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
-%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
-
-% adjust the page margins
-\usepackage[scale=0.75]{geometry}
-\usepackage{graphicx}
-%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
-%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
-
-% personal data
-\name{Mintra}{Ruensuk}
-%\title{Resumé title}                               % optional, remove / comment the line if not wanted
-\address{3 Moo 4, Bungkohai, Lamlukka, Pathum Thani}{12150}{Thailand}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
-\phone[mobile]{+66~(85)~350~6076}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
-\phone[fixed]{+66~(2)~190~9809}
-%\phone[fax]{+3~(456)~789~012}
-\email{kikist@gmail.com}                               % optional, remove / comment the line if not wanted
-\homepage{mintra-ruensuk.blogspot.com}                         % optional, remove / comment the line if not wanted
-%\social[linkedin]{john.doe}                        % optional, remove / comment the line if not wanted
-\social[twitter]{i4110017}                             % optional, remove / comment the line if not wanted
-%\social[github]{jdoe}                              % optional, remove / comment the line if not wanted
-%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
-%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
-%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
-
-% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
-%\makeatletter
-%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
-%\makeatother
-%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
-
-% bibliography with mutiple entries
-%\usepackage{multibib}
-%\newcites{book,misc}{{Books},{Others}}
-%----------------------------------------------------------------------------------
-%            content
-%----------------------------------------------------------------------------------
 \begin{document}
-%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
-\makecvtitle
-\section{Research statement}
-\textbf{What is your research question for your PhD?}
-\\
-With the advancement of Web technology, learning technology has been developed in the past decade which allows learners to access various courses ubiquitously.  It also includes interactive quiz and tools for learner evaluation. However, some topics are difficult and not suitable for some learners, beginners for example, the topics can be more complicated when language barrier prevents them from clearly understand the fundamental concept. For these reason, I have seen the opportunity to improve the way of learning, especially, in computer science.
-\\
-\\
-Computer science can also be considered as one of the most complex topics. Learners need to have a clear understanding from basic to advanced knowledge. For example, understanding Object-oriented programming is required for Design Patterns. Based on my experience as a university lecturer, most of my students did not understand clearly what OOP is since it is conceptual which is untouchable. While working on Human-robot interaction as my master thesis, I have found that my work can stimulate people to be more interested in computer science. 
-\\
-\\
-Developing a suitable model or tool to encourage learner and aide them to have better understanding in computer science is a challenging topic. Augmented Reality for education can be used to create appropriated tool for interacting with learner. ``\emph{User-defined Gesture for Augmented Reality}''\ which have been done in HIT Lab NZ can be extended to develop an engagement tool that allow learners to gain more experiences throughout 3D model, and gesture action. For example, learning Object concept in OOP, learner can visually perceive the object via the 3D model which includes its class attribute and class method. Differently from the traditional way, learner can manipulate Object using gesture such as create new instance, object inheritance, class association, etc.
-\\
-\\
-Interactive wall is also one of my solutions to improve learning process in computer science.  Imagine that instructor and learner can participate together on a big wall. Gesture technique is used to be user commands. Instructor can pull up materials from mobile device or some other sources and share with learners, this will create an exciting learning environment. More importantly, I expect to develop a tool which is cost-effective and useful for various Thai universities where they are in resource limited setting.
-\\
-\\
-Since my research question is to improve the way of learning in computer science. Otherwise, I open myself widely to other research topics as our world is growing fast, new discovery can be happen everyday. Therefore, I would like to apply for a Ph.D. at University of Canterbury. In addition, it would be a great opportunity to do an internship for a short period in HIT Lab NZ prior to my Ph.D. study. This will help me to come up with more solid research topic based on your research environment.
-\\
-\\
-I have a strong believe that computer science would change the world again. Promoting computer science to learners especially who lived in rural area  with engagement tool and suitable model will expand their knowledge, and allow them to have equal access to high quality education as the ones in urban area. Hence, in near future, we expect to see innovative applications that make people a better life. 
-\\
-\\
-\textbf{What research have you done in the past?}
-\\
-I have received Master Degree in Computer Science (Software Engineering) in 2012 from Asian Institute of Technology, under the supervision of Dr. Matthew Dailey. I have researched about Human-robot interaction in service environment and came out with the thesis entitled ``\emph{Voice, Gesture, and Web Interfaces for Human Robot Interaction in Service Environments.}''\ I studied the interaction between robot and human being throughout voice, gesture, and Web Interfaces with Turtlebot (an iRobot Create integrated with a Microsoft Kinect). My research focused on the development of interfaces in order to facilitate non-experience user to simply control the robot. 
-\\
-\\
-Robot Operating System (ROS) is used as a framework which can obtain, build, write, and run code across multiple computers and multiple robots. Moreover, the ROS package was created on top of ROS to receive commands from user such as voice command, and finger command in term of gesture. From three interfaces, they are all satisfied with qualitative evaluation as Turtlebot can achieve correct destination and respond to the command in a timely manner. In term of user aspect, web-based system is most satisfied as it is convenience to user (drag and drop) and can provide related information on web page such as robot position, obstacles, inflated obstacles, laser scan, and a compressed video coming from Microsoft Kinect.
-\\
-\\
-Before my thesis study, 2011, I have studied the Kinect technology to understand the definition of gesture recognition and gesture tracking. It was enable me to develop the program that allows user to interact with Kinect. With this program user can draws any shape they want, but I expected them to draw shapes within rectangle, circle, and even triangle. The contour is used to synthesize whether the shape is. Then, the result of hand tracking would be performed to the user. 
-\\
-\\
-The research that I have been conducted during the past three years is contributed not only to my master degree but it is also meaningful to other researchers. As a result, I have a passion to pursue my higher education in a broad area of human interface technology. To fulfill my long term future as a university lecturer, or a researcher in Thailand. 
-		
 
-\clearpage
+\header{mintra}{ruensuk}{senior software engineer / university lecturer} % Your name and current job title/field
 
-%-----       resume       ---------------------------------------------------------
-\makecvtitle
-\section{Nationality}
-Citizen of Thailand
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION
+%----------------------------------------------------------------------------------------
 
-\section{Gender}
-Female
+\begin{aside} % In the aside, each new line forces a line break
+\section{contact}
+3 Moo 4 Bungkohai
+Lamlukka, 
+Pathum Thani,
+Thailand 12150
+~
++66 853506076
+~
+\href{mailto:mintra.ruensuk@gmail.com}{mintra.ruensuk\\@gmail.com}
+~
+\href{http://mintra-ruensuk.blogspot.com/}{mintra-ruensuk.blogspot.com}
+%\href{http://facebook.com/mintra.r}{fb://mintra.r}
+\section{languages}
+english fluency
+thai mother tongue
+\section{programming \& technology}
+{\color{red} $\varheartsuit$} Ruby on Rails
+{\color{red} $\varheartsuit$} Vanilla JavaScript
+{\color{red} $\varheartsuit$} Java
+Grails
+PHP
+CSS3, HTML5
+Backbone.js / React
+Rspec, Cucumber
+Robot Framework
+{\color{red} $\varheartsuit$} D3
+Android
+Cordova
+Bootstrap
+WordPress
+Kinect
+ROS
+Unity
+CLI
+\end{aside}
 
-\section{Education}
-\cventry{2010 -- 2012}{M.Sc, Computer Science  (Specialize in Software Engineering)}{Asian Institute of Technology}{Thailand}{\textit{3.28/4}}{}  % arguments 3 to 6 can be left empty
-\cventry{2005--2009}{B.Sc, Information Technology (First Class Honors)}{Mahanakorn University of Technology}{Thailand}{\textit{3.95/4}}{Senior project: Information Technology Jobs Matching By Groovy on Grails}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
 
-\section{Master thesis}
-\cvitem{title}{\emph{Voice, Gesture, and Web Interfaces for Human-Robot Interaction in Service Environments}}
-\cvitem{supervisors}{Matthew N. Dailey, PhD}
-\cvitem{description}{
-Robot Operating System (ROS) is used to enable Human-robot interaction with the Turtlebot (an iRobot Create integrated with a Microsoft Kinect). Building on and extending existing technologies, I have created a prototype restuarant waiter robot able to respond to voice, gesture, and Web-based commands. Available online at \url{https://sites.google.com/site/vgwhri/home}}
+\section{education}
 
-\section{Interests}
-\begin{itemize} \itemsep -1pt
-    \item Human-computer interaction
-    \item Human-robot interaction
-    \item Agile software development
-    \item Web and mobile technology
-    \item Object-oriented technology 
-    \item Education technology
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2010--2012}
+{Masters {\normalfont of Science (Computer Science) }}
+{Asian Institute of Technology}
+{Specialize in Software Engineering\\ \emph{Voice, Gesture, and Web Interfaces for Human-Robot Interaction in Service Environments} \\ This thesis explored how human can interact with robot from various interfaces using Kinect technology with Robot Operating System}\\
+%------------------------------------------------
+\entry
+{2005--2009}
+{Bachelor {\normalfont of Science (Information Technology)}}
+{Mahanakorn University of Technology}
+{ \emph{Information Technology Jobs Matching By Groovy on Grails} }\\
+%------------------------------------------------
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{experience}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2016--Now}
+{Thammasat University}
+{Pattaya, Thailand}
+{\emph{Visiting Lecturer} \\
+Responsible for teaching the Mobile Device Application Development course. \\
+}
+\entry
+{2016--Now}
+{Hitachi Power Tools (Thailand)}
+{Bangkok, Thailand}
+{\emph{Full Stack Developer (Freelancer)} \\
+Responsible for analyze requirements, develop, and configure a server of the website for Hitachi Power Tools (Thailand) using PHP and MySQL.\\
+}
+\entry
+{2016--Now}
+{Lezena Spa}
+{Bangkok, Thailand}
+{\emph{Web Developer (Freelancer)} \\
+Responsible for analyze requirements, develop, and configure a server of the website for Lezena Spa using WordPress.\\
+}
+\entry
+{2015--Now}
+{Stamford International University}
+{Bangkok, Thailand}
+{\emph{Full-Time IT Lecturer} \\
+Responsible for teaching courses in English and doing research. I have fully taught many courses such as Human-Computer Interaction, Mobile Apps Development, Mobile Games Development, Mobile Computing, Hybrid Mobile Applications, Content Management Systems, Programming I, and Programming II.\\
+}
+%------------------------------------------------
+%------------------------------------------------
+
+\entry
+{2014--2015}
+{Rajamangala University of Technology Thanyaburi}
+{Pathum Thani, Thailand}
+{\emph{Lecturer} \\
+Responsible for teaching courses and doing research. I have fully taught one course titled \emph{"Computer Organization and Architecture"} and was a co-lecturer for many courses such as Internet Technology for Daily Uses, Computer and Business Information Technology. \\
+}
+%------------------------------------------------
+\end{entrylist}
+\begin{entrylist}
+\entry
+{2012--2015}
+{Think Blue Data}
+{Nonthaburi, Thailand}
+{\emph{Senior Software Engineer} \\
+Develop web applications especially for data analyst using data visualization techniques on Agile software development. Being a full-stack software engineer who can take care of both back-end system and front-end system as well as testing. \\
+Detailed achievements:
+\begin{itemize}
+\item Create an online tool for planning and analyzing data and images generated by a portable water robot
+\item Create a web portal for analyzing data and etc.
+\item Being a motivated tester
+\begin{itemize}
+\item Unit test: Rspec, Mocha
+\item Integration test: Cucumber, Robot Framework
 \end{itemize}
-
-\section{Experience}
-\subsection{Vocational}
-\cventry{2012--present}{Software Engineer}{Think Blue Data}{Bangkok, Thailand}{}{
-Responsible for developing Web applications using  \texttt{Ruby on Rails}. One of the applications is an online tool for planning and analyzing data and images generated by a portable water robot named ESP. It enables user to plan a mission before deployments, remote troubleshooting, sync data generated from ESPs to dedicated server, and process log files and images. After analyzed large dataset, an online tool will generate the visualizations which allow user to interact, filter and export. Moreover, this application is extended to serve  user the visualizations of big data generated by water sensors around the world. We also develop interactive E-learning applications which provide classroom data in real-time. User can manage course's data such as lessons, learning materials, quizzes, and etc using Web-based interace.\newline{}\newline{}%
-The technologies behind these applications are  \texttt{Ruby on Rails},  \texttt{Node.js},  \texttt{JavaScript}, and  \texttt{Bootstrap}. We mainly use open-source libraries of JavaScript such as  \texttt{jQuery},  \texttt{underscore.js},  \texttt{slickgrid},  \texttt{backbone},  \texttt{d3},  \texttt{nvd3}. Another technologies we have been using are  \texttt{Rsync},  \texttt{Drupal} and  \texttt{Apache Solr}.\\\newline{}%
-Our team is using Agile software development. We deliver product to customer every 2 weeks. We mainly use XP, scrum process. After each iteration has finished, we have one day for researching everything we are interested in. It's a Hack Day. I have been researching various topics during my Hack Day such as play around with testing methodology tools, generated diagram, how to test rake task, play around with Bamboo, Hadoop, learning cloud architecture.\\\newline{}%
-Personally, I have been using \texttt{Pomodoro Technique} since last year. It helps me to manage the internal/external interruptions, so that I can see myself more hyper productive.\newline{}%
+\item Continuous Integration tool: Hudson, Jenkins\\
+\end{itemize}
 }
-\cventry{2009--2010}{Lecturer}{Mahanakorn University of Technology}{Bangkok, Thailand}{}{Department of Information Science and Technology,\newline{}%
-Teaching Course: Modern Programming Language.\newline{}%
-Co-Teaching Courses: Computer Graphic, Computer Network, Multimedia and animation technology, Data structure and algorithms, and Design Patterns.%
+%------------------------------------------------
+
+\entry
+{2009--2010}
+{Mahanakorn University of Technology}
+{Bangkok, Thailand}
+{\emph{Lecturer} \\
+Responsible for teaching one course titled \emph{"Modern Programming Language"}.\\
 }
-\subsection{Miscellaneous}
-\cventry{2014}{Speaker}{Thanyarat School}{Pathum Thani, Thailand}{}{Encourage high school students to learn more in computer science, also give them the inspirations in order to achieve their dreams.\newline{}}
-\cventry{2011}{Staff for International Robotics Challenge}{Techfest}{Mumbai, India}{}{I was the staff for the robot competition at Techfest (Asia's Largest Science and Technology festival). I administered Thai students who joined this competition.\newline{}}
-\cventry{2010}{Speaker}{High Schools}{Thailand}{}{I had travelled around Thailand to encourage high school students for further study in their field especially in computer science. I mostly talked about the guideline to study in the university. }
+%------------------------------------------------
+%------------------------------------------------
+\end{entrylist}
 
-\section{Honors, Awards, Grants}
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
 
-\cventry{2010-2012}{Royal Thai Government Scholarship}{Asian Institute of Technology}{Pathum Thani, Thailand}{}{}
-\cventry{2005-2009}{MUT Scholarship for outstanding students}{Mahanakorn University of Technology}{Bangkok, Thailand}{}{}
+\section{honors, awards, grants}
 
-\section{Certificates}
-Sun certified programmer for the Java platform, standard edition 5.0
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2010 - 2012}
+{Postgraduate Scholarship}
+{Asian Institute of Technology}
+{Royal Thai Government Scholarship}
+\\
+\entry
+{2005 - 2009}
+{Undergraduate Scholarship}
+{Mahanakorn University of Technology}
+{Scholarship for outstanding student.}\\
+%------------------------------------------------
+\end{entrylist}
 
-\section{Publications}
-Ruensuk, M., Information Technology Jobs Matching By Groovy on Grails. In Proceedings of \emph{Conference on Electrical Engineering/Electronics Computer Telecommunications and Information Technology (ECTI-CARD)}, 2010, pp. 343 - 348.
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
 
-\section{Academic records}
-\subsection{Master degree}
-\includegraphics[width=\textwidth]{images/master_1}
-\clearpage
-\includegraphics[width=\textwidth]{images/master_2}
+\section{communication skills}
 
-\subsection{Bachelor degree}
-\includegraphics[width=\textwidth]{images/bachelor_1}
-\includegraphics[width=\textwidth]{images/bachelor_2}
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2015}
+{Guest Speaker of Mekong ICT Camp 2015}
+{Pattaya, Thailand}
+{Special session in Data Visualization}\\
 
-\section{Expected start date}
-September 1st, 2014
-\section{Funding - Do you require funding?}
-Yes, I do.
+\entry
+{2015}
+{Guest Speaker / Participant of Open Data Hackathon : Health Viz}
+{Bangkok, Thailand}
+{Be a part of the Open Data Hackathon : Health Viz. }\\
 
-% Publications from a BibTeX file without multibib
-%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
-%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+\entry
+{2014}
+{Talk}
+{Thanyarat School}
+{Seven years to make your dreams come true.}\\
+
+\entry
+{2012}
+{Oral Presentation}
+{Asian Institute of Technology Research Award}
+{Presented the research I conducted for my Masters of Science degree.}\\
+%------------------------------------------------
+\entry
+{2010}
+{Oral Presentation}
+{(ECTI-CARD Conference, Pattaya}
+{Presented the research.}\\
+%------------------------------------------------
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{interests}
+
+\textbf{professional:} human-computer interaction, mobile application development, data visualization, human interface technology, software testing, agile software development, web technology, education research\\
+\textbf{personal:} watching movies, driving, coding for fun
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{publications}
+Ruensuk, M., An implementation to reduce internal/external interruptions in Agile software development using Pomodoro Technique. In Proceedings of 15th IEEE/ACIS International Conference on Computer and Information Science (ICIS 2016), 2016, pp 669 - 672.\\ \\
+Ruensuk, M., A Special Capstone Course for Exchange Students on Agile Software Development Us- ing Scrum Methodology. PKRU Conference on Development of New and Innovation Research for the AEC, 2015\\ \\
+Ruensuk, M., Information Technology Jobs Matching By Groovy on Grails. In Proceedings of Conference on Electrical Engineering/Electronics Computer Telecommunications and Information Technology (ECTI-CARD), 2010, pp. 343 - 348.\\
+
+\section{references}
+Dr. Matthew Dailey\\
+Associate Professor in Machine vision and learning, especially as applied in robotics \\
+Computer Science and Information Management\\
+School of Engineering and Technology\\
+Asian Institute of Technology\\
+P.O. Box 4, Klong Luang\\
+Pathumthani 12120 Thailand\\ 
+\href{mailto:mdailey@ait.ac.th}{mdailey@ait.ac.th}\\
+
+Dr. Paul Janecek\\
+Associate Professor in Human Computer Interaction\\
+Founder and CEO of Think Blue Data \\
+Software Park Building, 99/28 Chaengwattana Road\\
+Moo 4, Klong Gleua \\
+Pakkred Nonthaburi 11120 Thailand\\
+\href{mailto:paul@thinkbluedata.com}{paul@thinkbluedata.com}
+
+
+
+
+
+
+\printbibsection{article}{article in peer-reviewed journal} % Print all articles from the bibliography
+
+\printbibsection{book}{books} % Print all books from the bibliography
+
+\begin{refsection} % This is a custom heading for those references marked as "inproceedings" but not containing "keyword=france"
 \nocite{*}
-\bibliographystyle{plain}
-\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+\printbibliography[sorting=chronological, type=inproceedings, title={international peer-reviewed conferences/proceedings}, notkeyword={france}, heading=subbibliography]
+\end{refsection}
 
-% Publications from a BibTeX file using the multibib package
-%\section{Publications}
-%\nocitebook{book1,book2}
-%\bibliographystylebook{plain}
-%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
-%\nocitemisc{misc1,misc2,misc3}
-%\bibliographystylemisc{plain}
-%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+\begin{refsection} % This is a custom heading for those references marked as "inproceedings" and containing "keyword=france"
+\nocite{*}
+\printbibliography[sorting=chronological, type=inproceedings, title={local peer-reviewed conferences/proceedings}, keyword={france}, heading=subbibliography]
+\end{refsection}
 
+\printbibsection{misc}{other publications} % Print all miscellaneous entries from the bibliography
 
-%\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
+\printbibsection{report}{research reports} % Print all research reports from the bibliography
+
+%----------------------------------------------------------------------------------------
+
 \end{document}
-
-
-%% end of file `template.tex'.
